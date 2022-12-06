@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      .box {
+        margin-left: 3rem;
+        margin-right: 20rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">PoxMeds!</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'index' %}"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'about' %}">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'quiz' %}">Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'test' %}">Take Test</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <br />
+    <h1 style="padding-left: 4%">Monkeypox</h1>
+    <br />
+
+    <div class="box">
+      <h2>Key facts</h2>
+      <ur>
+        <li>
+          Vaccines used during the smallpox eradication programme also provided
+          protection against monkeypox. Newer vaccines have been developed of
+          which one has been approved for prevention of monkeypox.
+        </li>
+        <li>
+          Monkeypox is caused by monkeypox virus, a member of the Orthopoxvirus
+          genus in the family Poxviridae.
+        </li>
+        <li>
+          Monkeypox is usually a self-limited disease with the symptoms lasting
+          from 2 to 4 weeks. Severe cases can occur. In recent times, the case
+          fatality ratio has been around 3–6%.
+        </li>
+        <li>
+          Monkeypox is transmitted to humans through close contact with an
+          infected person or animal, or with material contaminated with the
+          virus.
+        </li>
+        <li>
+          Monkeypox virus is transmitted from one person to another by close
+          contact with lesions, body fluids, respiratory droplets and
+          contaminated materials such as bedding.
+        </li>
+        <li>
+          Monkeypox is a viral zoonotic disease that occurs primarily in
+          tropical rainforest areas of central and west Africa and is
+          occasionally exported to other regions.
+        </li>
+        <li>
+          An antiviral agent developed for the treatment of smallpox has also
+          been licensed for the treatment of monkeypox.
+        </li>
+        <li>
+          The clinical presentation of monkeypox resembles that of smallpox, a
+          related orthopoxvirus infection which was declared eradicated
+          worldwide in 1980. Monkeypox is less contagious than smallpox and
+          causes less severe illness.
+        </li>
+        <li>
+          Monkeypox typically presents clinically with fever, rash and swollen
+          lymph nodes and may lead to a range of medical complications.
+        </li>
+      </ur>
+      <br />
+      <h2>The pathogen</h2>
+      <p>
+        Monkeypox virus is an enveloped double-stranded DNA virus that belongs
+        to the <i>Orthopoxvirus</i> genus of the <i>Poxviridae</i> family. There
+        are two distinct genetic clades of the monkeypox virus: the central
+        African (Congo Basin) clade and the west African clade. The Congo Basin
+        clade has historically caused more severe disease and was thought to be
+        more transmissible. The geographical division between the two clades has
+        so far been in Cameroon, the only country where both virus clades have
+        been found.
+      </p>
+
+      <br />
+      <h2>Outbreaks</h2>
+      <p>
+        Human monkeypox was first identified in humans in 1970 in the Democratic
+        Republic of the Congo in a 9-month-old boy in a region where smallpox
+        had been eliminated in 1968. Since then, most cases have been reported
+        from rural, rainforest regions of the Congo Basin, particularly in the
+        Democratic Republic of the Congo and human cases have increasingly been
+        reported from across central and west Africa.
+      </p>
+      <p>
+        Since 1970, human cases of monkeypox have been reported in 11 African
+        countries: Benin, Cameroon, the Central African Republic, the Democratic
+        Republic of the Congo, Gabon, Cote d’Ivoire, Liberia, Nigeria, the
+        Republic of the Congo, Sierra Leone and South Sudan. The true burden of
+        monkeypox is not known. For example, in 1996–97, an outbreak was
+        reported in the Democratic Republic of the Congo with a lower case
+        fatality ratio and a higher attack rate than usual. A concurrent
+        outbreak of chickenpox (caused by the varicella virus, which is not an
+        orthopoxvirus) and monkeypox was found, which could explain real or
+        apparent changes in transmission dynamics in this case. Since 2017,
+        Nigeria has experienced a large outbreak, with over 500 suspected cases
+        and over 200 confirmed cases and a case fatality ratio of approximately
+        3%. Cases continue to be reported until today.
+      </p>
+      <p>
+        Monkeypox is a disease of global public health importance as it not only
+        affects countries in west and central Africa, but the rest of the world.
+        In 2003, the first monkeypox outbreak outside of Africa was in the
+        United States of America and was linked to contact with infected pet
+        prairie dogs. These pets had been housed with Gambian pouched rats and
+        dormice that had been imported into the country from Ghana. This
+        outbreak led to over 70 cases of monkeypox in the U.S. Monkeypox has
+        also been reported in travelers from Nigeria to Israel in September
+        2018, to the United Kingdom in September 2018, December 2019, May 2021
+        and May 2022, to Singapore in May 2019, and to the United States of
+        America in July and November 2021. In May 2022, multiple cases of
+        monkeypox were identified in several non-endemic countries. Studies are
+        currently underway to further understand the epidemiology, sources of
+        infection, and transmission patterns.
+      </p>
+
+      <h4>
+        Know more about the
+        <a href="https://www.cdc.gov/poxvirus/monkeypox/symptoms/index.html"
+          >Signs & Symptoms.</a
+        >
+      </h4>
+    </div>
+  </body>
+</html>

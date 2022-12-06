@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <style>
+      .box1 {
+        margin-left: 3rem;
+        margin-right: 20rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">PoxMeds!</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'index' %}"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'about' %}">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'quiz' %}">Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'test' %}">Take Test</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="box1">
+      <h2>Monkeypox symptoms</h2>
+      <p>
+        People with monkeypox get a rash that may be located on or near the
+        genitals (penis, testicles, labia, and vagina) or anus (butthole) and
+        could be on other areas like the hands, feet, chest, face, or mouth.
+      </p>
+      <ul>
+        <li>
+          The rash will go through several stages, including scabs, before
+          healing.
+        </li>
+        <li>
+          The rash can initially look like pimples or blisters and may be
+          painful or itchy.
+        </li>
+      </ul>
+      <h3>Other symptoms of monkeypox can include:</h3>
+      <ul>
+        <li>Fever</li>
+        <li>Chills</li>
+        <li>Swollen lymph nodes</li>
+        <li>Exhaustion</li>
+        <li>Muscle aches and backache</li>
+        <li>Headache</li>
+        <li>
+          Respiratory symptoms (e.g. sore throat, nasal congestion, or cough)
+        </li>
+      </ul>
+      <h3>Follow the steps to take the Monkeypox Test:</h3>
+      <ul>
+        <li>Click on the below button</li>
+        <li>Upload the image of your Monkeypox lesion</li>
+        <li>Click on the upload button to know the prediction</li>
+      </ul>
+      <h5>
+        Note: Donot rely on the prediction. Sometimes the predictions might not
+        be accurate. So consult your doctor if the symptoms continue.
+      </h5>
+    </div>
+    <div style="text-align: center">
+      <button type="button" class="btn btn-primary">Take Test</button>
+    </div>
+  </body>
+</html>
